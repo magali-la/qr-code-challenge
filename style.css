@@ -19,10 +19,21 @@
     --spacing2: 0.2px;
 }
 
+
+h1 {
+    font: var(--text-preset1);
+    letter-spacing: var(--spacing1);
+}
+
+p {
+    font: var(--text-preset2);
+    letter-spacing: var(--spacing2);
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
 }
 .attribution a { 
-    color: ; 
+    color: blue; 
 }
