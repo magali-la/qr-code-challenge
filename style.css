@@ -1,7 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+:root {
+    /* custom colors */
+    --slate-300: rgb(213, 225, 239);
+    --slate-500: rgb(104, 119, 141);
+    --slate-900: rgb(31, 49, 79);
+
+    /* custom fonts */
+    --font-outfit: 'Outfit', sans-serif;
+
+    /* typography styles */
+    --text-preset1: 700 22px/120% var(--font-outfit);
+    --text-preset2: 400 15px/140% var(--font-outfit);
+
+    /* letter spacing styles */
+    --spacing1: 0px;
+    --spacing2: 0.2px;
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
 }
 .attribution a { 
-    color: green; 
+    color: ; 
 }
